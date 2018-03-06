@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE yml_catalog
+SYSTEM "shops.dtd">
+<yml_catalog date="2018-03-06 18:06">
+ <shop>
+  <name>Demo 1.7.3</name>
+  <company>Demo 1.7.3</company>
+  <url>http://192.168.9.41/prestashop/theme_mprozetka/</url>
+  <currencies>
+   <currency id="UAH" rate="1.000000"/>
+   <currency id="USD" rate="0.037696"/>
+  </currencies>
+  <categories>
+   <category id="2">Home</category>
+   <category id="3" parentId="2">Clothes</category>
+   <category id="4" parentId="3">Men</category>
+   <category id="5" parentId="3">Women</category>
+   <category id="6" parentId="2">Accessories</category>
+   <category id="7" parentId="6">Stationery</category>
+   <category id="8" parentId="6">Home Accessories</category>
+   <category id="9" parentId="2">Art</category>
+  </categories>
+  <offers>
+   <offer id="213" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/art/13-brown-bear-vector-graphics.html</url>
+    <price>9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>2</categoryId>
+    <vendor>Graphic Corner</vendor>
+    <categoryId>2</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Brown bear - Vector graphics</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;You have a custom printing creative project? The vector graphic Mountain fox illustration can be used for printing purpose on any support, without size limitation. &lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/16-large_default/brown-bear-vector-graphics.jpg</picture>
+   </offer>
+   <offer id="210" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home-accessories/10-brown-bear-cushion.html</url>
+    <price>18.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>2</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>2</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Brown bear cushion</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;The brown bear cushion will add a graphic and colorful touch to your sofa, armchair or bed. Create a modern and zen atmosphere that inspires relaxation. Cover 100% cotton, machine washable at 60° / Filling 100% hypoallergenic polyester.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/11-large_default/brown-bear-cushion.jpg</picture>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/12-large_default/brown-bear-cushion.jpg</picture>
+    <param name="Frame Size">Ruled</param>
+   </offer>
+   <offer id="217" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/stationery/17-mountain-fox-notebook.html</url>
+    <price>12.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>2</categoryId>
+    <vendor>Graphic Corner</vendor>
+    <categoryId>2</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Brown bear notebook</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;The Mountain fox notebook is the best option to write down your most ingenious ideas. At work, at home or when traveling, its endearing design and manufacturing quality will make you feel like writing! 90 gsm paper / double spiral binding.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/19-large_default/mountain-fox-notebook.jpg</picture>
+   </offer>
+   <offer id="219" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home-accessories/19-customizable-mug.html</url>
+    <price>13.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>2</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>2</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Customizable mug</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;Customize your mug with the text of your choice. A mood, a message, a quote... It's up to you! Maximum number of characters:&lt;/span&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;color:#ff9900;&quot;&gt; ---&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/22-large_default/customizable-mug.jpg</picture>
+   </offer>
+   <offer id="22" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home/2-brown-bear-printed-sweater.html</url>
+    <price>28.72</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>2</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>2</categoryId>
+    <stock_quantity>1200</stock_quantity>
+    <name>Hum&amp;apos;mingbird printed sweater</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;Studio Design' PolyFaune collection features classic products with colorful patterns, inspired by the traditional japanese origamis. To wear with a chino or jeans. The sublimation textile printing process provides an exceptional color rendering and a color, guaranteed overtime.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/21-large_default/brown-bear-printed-sweater.jpg</picture>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/24-large_default/brown-bear-printed-sweater.jpg</picture>
+    <param name="Color">red</param>
+    <param name="Frame Size">Cotton</param>
+   </offer>
+   <offer id="214" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/art/14-hummingbird-vector-graphics.html</url>
+    <price>9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>2</categoryId>
+    <vendor>Graphic Corner</vendor>
+    <categoryId>2</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Hummingbird - Vector graphics</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;You have a custom printing creative project? The vector graphic Mountain fox illustration can be used for printing purpose on any support, without size limitation. &lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/17-large_default/hummingbird-vector-graphics.jpg</picture>
+   </offer>
+   <offer id="211" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home-accessories/11-hummingbird-cushion.html</url>
+    <price>18.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>2</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>2</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Hummingbird cushion</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;The hummingbird cushion will add a graphic and colorful touch to your sofa, armchair or bed. Create a modern and zen atmosphere that inspires relaxation. Cover 100% cotton, machine washable at 60° / Filling 100% hypoallergenic polyester.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/13-large_default/hummingbird-cushion.jpg</picture>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/14-large_default/hummingbird-cushion.jpg</picture>
+   </offer>
+   <offer id="218" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/stationery/18-mountain-fox-notebook.html</url>
+    <price>12.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>2</categoryId>
+    <vendor>Graphic Corner</vendor>
+    <categoryId>2</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Hummingbird notebook</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;The Mountain fox notebook is the best option to write down your most ingenious ideas. At work, at home or when traveling, its endearing design and manufacturing quality will make you feel like writing! 90 gsm paper / double spiral binding.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/20-large_default/mountain-fox-notebook.jpg</picture>
+   </offer>
+   <offer id="21" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/men/1-hummingbird-printed-t-shirt.html</url>
+    <price>19.12</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>2</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>2</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Hummingbird printed t-shirt</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;color:#efefef;&quot;&gt;Symbol of lightness and delicacy, the hummingbird evokes curiosity and joy.&lt;/span&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt; Studio Design' PolyFaune collection features classic products with colorful patterns, inspired by the traditional japanese origamis. To wear with a chino or jeans. The sublimation textile printing process provides an exceptional color rendering and a color, guaranteed overtime.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/1-large_default/hummingbird-printed-t-shirt.jpg</picture>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/2-large_default/hummingbird-printed-t-shirt.jpg</picture>
+   </offer>
+   <offer id="212" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/art/12-mountain-fox-vector-graphics.html</url>
+    <price>9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>2</categoryId>
+    <vendor>Graphic Corner</vendor>
+    <categoryId>2</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Mountain fox - Vector graphics</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;You have a custom printing creative project? The vector graphic Mountain fox illustration can be used for printing purpose on any support, without size limitation. &lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/15-large_default/mountain-fox-vector-graphics.jpg</picture>
+   </offer>
+   <offer id="29" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home-accessories/9-mountain-fox-cushion.html</url>
+    <price>18.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>2</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>2</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Mountain fox cushion</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;The mountain fox cushion will add a graphic and colorful touch to your sofa, armchair or bed. Create a modern and zen atmosphere that inspires relaxation. Cover 100% cotton, machine washable at 60° / Filling 100% hypoallergenic polyester.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/9-large_default/mountain-fox-cushion.jpg</picture>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/10-large_default/mountain-fox-cushion.jpg</picture>
+   </offer>
+   <offer id="216" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/stationery/16-mountain-fox-notebook.html</url>
+    <price>12.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>2</categoryId>
+    <vendor>Graphic Corner</vendor>
+    <categoryId>2</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Mountain fox notebook</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;The Mountain fox notebook is the best option to write down your most ingenious ideas. At work, at home or when traveling, its endearing design and manufacturing quality will make you feel like writing! 90 gsm paper / double spiral binding.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/18-large_default/mountain-fox-notebook.jpg</picture>
+   </offer>
+   <offer id="32" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home/2-brown-bear-printed-sweater.html</url>
+    <price>28.72</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>3</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>3</categoryId>
+    <stock_quantity>1200</stock_quantity>
+    <name>Hum&amp;apos;mingbird printed sweater</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;Studio Design' PolyFaune collection features classic products with colorful patterns, inspired by the traditional japanese origamis. To wear with a chino or jeans. The sublimation textile printing process provides an exceptional color rendering and a color, guaranteed overtime.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/21-large_default/brown-bear-printed-sweater.jpg</picture>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/24-large_default/brown-bear-printed-sweater.jpg</picture>
+    <param name="Color">red</param>
+    <param name="Frame Size">Cotton</param>
+   </offer>
+   <offer id="31" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/men/1-hummingbird-printed-t-shirt.html</url>
+    <price>19.12</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>3</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>3</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Hummingbird printed t-shirt</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;color:#efefef;&quot;&gt;Symbol of lightness and delicacy, the hummingbird evokes curiosity and joy.&lt;/span&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt; Studio Design' PolyFaune collection features classic products with colorful patterns, inspired by the traditional japanese origamis. To wear with a chino or jeans. The sublimation textile printing process provides an exceptional color rendering and a color, guaranteed overtime.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/1-large_default/hummingbird-printed-t-shirt.jpg</picture>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/2-large_default/hummingbird-printed-t-shirt.jpg</picture>
+   </offer>
+   <offer id="41" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/men/1-hummingbird-printed-t-shirt.html</url>
+    <price>19.12</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>4</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>4</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Hummingbird printed t-shirt</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;color:#efefef;&quot;&gt;Symbol of lightness and delicacy, the hummingbird evokes curiosity and joy.&lt;/span&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt; Studio Design' PolyFaune collection features classic products with colorful patterns, inspired by the traditional japanese origamis. To wear with a chino or jeans. The sublimation textile printing process provides an exceptional color rendering and a color, guaranteed overtime.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/1-large_default/hummingbird-printed-t-shirt.jpg</picture>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/2-large_default/hummingbird-printed-t-shirt.jpg</picture>
+   </offer>
+   <offer id="52" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home/2-brown-bear-printed-sweater.html</url>
+    <price>28.72</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>5</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>5</categoryId>
+    <stock_quantity>1200</stock_quantity>
+    <name>Hum&amp;apos;mingbird printed sweater</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;Studio Design' PolyFaune collection features classic products with colorful patterns, inspired by the traditional japanese origamis. To wear with a chino or jeans. The sublimation textile printing process provides an exceptional color rendering and a color, guaranteed overtime.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/21-large_default/brown-bear-printed-sweater.jpg</picture>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/24-large_default/brown-bear-printed-sweater.jpg</picture>
+    <param name="Color">red</param>
+    <param name="Frame Size">Cotton</param>
+   </offer>
+   <offer id="610" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home-accessories/10-brown-bear-cushion.html</url>
+    <price>18.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>6</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>6</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Brown bear cushion</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;The brown bear cushion will add a graphic and colorful touch to your sofa, armchair or bed. Create a modern and zen atmosphere that inspires relaxation. Cover 100% cotton, machine washable at 60° / Filling 100% hypoallergenic polyester.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/11-large_default/brown-bear-cushion.jpg</picture>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/12-large_default/brown-bear-cushion.jpg</picture>
+    <param name="Frame Size">Ruled</param>
+   </offer>
+   <offer id="617" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/stationery/17-mountain-fox-notebook.html</url>
+    <price>12.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>6</categoryId>
+    <vendor>Graphic Corner</vendor>
+    <categoryId>6</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Brown bear notebook</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;The Mountain fox notebook is the best option to write down your most ingenious ideas. At work, at home or when traveling, its endearing design and manufacturing quality will make you feel like writing! 90 gsm paper / double spiral binding.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/19-large_default/mountain-fox-notebook.jpg</picture>
+   </offer>
+   <offer id="619" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home-accessories/19-customizable-mug.html</url>
+    <price>13.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>6</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>6</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Customizable mug</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;Customize your mug with the text of your choice. A mood, a message, a quote... It's up to you! Maximum number of characters:&lt;/span&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;color:#ff9900;&quot;&gt; ---&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/22-large_default/customizable-mug.jpg</picture>
+   </offer>
+   <offer id="611" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home-accessories/11-hummingbird-cushion.html</url>
+    <price>18.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>6</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>6</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Hummingbird cushion</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;The hummingbird cushion will add a graphic and colorful touch to your sofa, armchair or bed. Create a modern and zen atmosphere that inspires relaxation. Cover 100% cotton, machine washable at 60° / Filling 100% hypoallergenic polyester.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/13-large_default/hummingbird-cushion.jpg</picture>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/14-large_default/hummingbird-cushion.jpg</picture>
+   </offer>
+   <offer id="618" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/stationery/18-mountain-fox-notebook.html</url>
+    <price>12.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>6</categoryId>
+    <vendor>Graphic Corner</vendor>
+    <categoryId>6</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Hummingbird notebook</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;The Mountain fox notebook is the best option to write down your most ingenious ideas. At work, at home or when traveling, its endearing design and manufacturing quality will make you feel like writing! 90 gsm paper / double spiral binding.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/20-large_default/mountain-fox-notebook.jpg</picture>
+   </offer>
+   <offer id="69" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home-accessories/9-mountain-fox-cushion.html</url>
+    <price>18.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>6</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>6</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Mountain fox cushion</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;The mountain fox cushion will add a graphic and colorful touch to your sofa, armchair or bed. Create a modern and zen atmosphere that inspires relaxation. Cover 100% cotton, machine washable at 60° / Filling 100% hypoallergenic polyester.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/9-large_default/mountain-fox-cushion.jpg</picture>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/10-large_default/mountain-fox-cushion.jpg</picture>
+   </offer>
+   <offer id="616" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/stationery/16-mountain-fox-notebook.html</url>
+    <price>12.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>6</categoryId>
+    <vendor>Graphic Corner</vendor>
+    <categoryId>6</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Mountain fox notebook</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;The Mountain fox notebook is the best option to write down your most ingenious ideas. At work, at home or when traveling, its endearing design and manufacturing quality will make you feel like writing! 90 gsm paper / double spiral binding.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/18-large_default/mountain-fox-notebook.jpg</picture>
+   </offer>
+   <offer id="67" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home-accessories/7-mug-the-adventure-begins.html</url>
+    <price>11.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>6</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>6</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Mug The adventure begins</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;The adventure begins with a cup of coffee. Set out to conquer the day! 8,2cm diameter / 9,5cm height / 0.43kg. Dishwasher-proof.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/7-large_default/mug-the-adventure-begins.jpg</picture>
+   </offer>
+   <offer id="66" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home-accessories/6-mug-the-best-is-yet-to-come.html</url>
+    <price>11.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>6</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>6</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Mug The best is yet to come</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;The best is yet to come! Start the day off right with a positive thought. 8,2cm diameter / 9,5cm height / 0.43kg. Dishwasher-proof.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/6-large_default/mug-the-best-is-yet-to-come.jpg</picture>
+   </offer>
+   <offer id="68" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home/8-mug-today-is-a-good-day.html</url>
+    <price>11.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>6</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>6</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Mug Today is a good day</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;Add an optimistic touch to your morning coffee and start the day in a good mood! 8,2cm diameter / 9,5cm height / 0.43kg. Dishwasher-proof.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/8-large_default/mug-today-is-a-good-day.jpg</picture>
+    <param name="Frame Size">Ruled</param>
+   </offer>
+   <offer id="615" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home-accessories/15-pack-mug-framed-poster.html</url>
+    <price>35</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>6</categoryId>
+    <categoryId>6</categoryId>
+    <stock_quantity>100</stock_quantity>
+    <name>Pack Mug + Framed poster</name>
+    <description>&lt;![CDATA[]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/23-large_default/pack-mug-framed-poster.jpg</picture>
+   </offer>
+   <offer id="717" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/stationery/17-mountain-fox-notebook.html</url>
+    <price>12.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>7</categoryId>
+    <vendor>Graphic Corner</vendor>
+    <categoryId>7</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Brown bear notebook</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;The Mountain fox notebook is the best option to write down your most ingenious ideas. At work, at home or when traveling, its endearing design and manufacturing quality will make you feel like writing! 90 gsm paper / double spiral binding.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/19-large_default/mountain-fox-notebook.jpg</picture>
+   </offer>
+   <offer id="718" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/stationery/18-mountain-fox-notebook.html</url>
+    <price>12.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>7</categoryId>
+    <vendor>Graphic Corner</vendor>
+    <categoryId>7</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Hummingbird notebook</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;The Mountain fox notebook is the best option to write down your most ingenious ideas. At work, at home or when traveling, its endearing design and manufacturing quality will make you feel like writing! 90 gsm paper / double spiral binding.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/20-large_default/mountain-fox-notebook.jpg</picture>
+   </offer>
+   <offer id="716" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/stationery/16-mountain-fox-notebook.html</url>
+    <price>12.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>7</categoryId>
+    <vendor>Graphic Corner</vendor>
+    <categoryId>7</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Mountain fox notebook</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;The Mountain fox notebook is the best option to write down your most ingenious ideas. At work, at home or when traveling, its endearing design and manufacturing quality will make you feel like writing! 90 gsm paper / double spiral binding.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/18-large_default/mountain-fox-notebook.jpg</picture>
+   </offer>
+   <offer id="810" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home-accessories/10-brown-bear-cushion.html</url>
+    <price>18.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>8</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>8</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Brown bear cushion</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;The brown bear cushion will add a graphic and colorful touch to your sofa, armchair or bed. Create a modern and zen atmosphere that inspires relaxation. Cover 100% cotton, machine washable at 60° / Filling 100% hypoallergenic polyester.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/11-large_default/brown-bear-cushion.jpg</picture>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/12-large_default/brown-bear-cushion.jpg</picture>
+    <param name="Frame Size">Ruled</param>
+   </offer>
+   <offer id="819" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home-accessories/19-customizable-mug.html</url>
+    <price>13.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>8</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>8</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Customizable mug</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;Customize your mug with the text of your choice. A mood, a message, a quote... It's up to you! Maximum number of characters:&lt;/span&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;color:#ff9900;&quot;&gt; ---&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/22-large_default/customizable-mug.jpg</picture>
+   </offer>
+   <offer id="811" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home-accessories/11-hummingbird-cushion.html</url>
+    <price>18.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>8</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>8</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Hummingbird cushion</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;The hummingbird cushion will add a graphic and colorful touch to your sofa, armchair or bed. Create a modern and zen atmosphere that inspires relaxation. Cover 100% cotton, machine washable at 60° / Filling 100% hypoallergenic polyester.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/13-large_default/hummingbird-cushion.jpg</picture>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/14-large_default/hummingbird-cushion.jpg</picture>
+   </offer>
+   <offer id="89" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home-accessories/9-mountain-fox-cushion.html</url>
+    <price>18.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>8</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>8</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Mountain fox cushion</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-weight:normal;font-style:normal;color:#000000;&quot;&gt;The mountain fox cushion will add a graphic and colorful touch to your sofa, armchair or bed. Create a modern and zen atmosphere that inspires relaxation. Cover 100% cotton, machine washable at 60° / Filling 100% hypoallergenic polyester.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/9-large_default/mountain-fox-cushion.jpg</picture>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/10-large_default/mountain-fox-cushion.jpg</picture>
+   </offer>
+   <offer id="87" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home-accessories/7-mug-the-adventure-begins.html</url>
+    <price>11.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>8</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>8</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Mug The adventure begins</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;The adventure begins with a cup of coffee. Set out to conquer the day! 8,2cm diameter / 9,5cm height / 0.43kg. Dishwasher-proof.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/7-large_default/mug-the-adventure-begins.jpg</picture>
+   </offer>
+   <offer id="86" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home-accessories/6-mug-the-best-is-yet-to-come.html</url>
+    <price>11.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>8</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>8</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Mug The best is yet to come</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;The best is yet to come! Start the day off right with a positive thought. 8,2cm diameter / 9,5cm height / 0.43kg. Dishwasher-proof.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/6-large_default/mug-the-best-is-yet-to-come.jpg</picture>
+   </offer>
+   <offer id="88" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home/8-mug-today-is-a-good-day.html</url>
+    <price>11.9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>8</categoryId>
+    <vendor>Studio Design</vendor>
+    <categoryId>8</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Mug Today is a good day</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;Add an optimistic touch to your morning coffee and start the day in a good mood! 8,2cm diameter / 9,5cm height / 0.43kg. Dishwasher-proof.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/8-large_default/mug-today-is-a-good-day.jpg</picture>
+    <param name="Frame Size">Ruled</param>
+   </offer>
+   <offer id="815" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home-accessories/15-pack-mug-framed-poster.html</url>
+    <price>35</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>8</categoryId>
+    <categoryId>8</categoryId>
+    <stock_quantity>100</stock_quantity>
+    <name>Pack Mug + Framed poster</name>
+    <description>&lt;![CDATA[]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/23-large_default/pack-mug-framed-poster.jpg</picture>
+   </offer>
+   <offer id="913" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/art/13-brown-bear-vector-graphics.html</url>
+    <price>9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>9</categoryId>
+    <vendor>Graphic Corner</vendor>
+    <categoryId>9</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Brown bear - Vector graphics</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;You have a custom printing creative project? The vector graphic Mountain fox illustration can be used for printing purpose on any support, without size limitation. &lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/16-large_default/brown-bear-vector-graphics.jpg</picture>
+   </offer>
+   <offer id="914" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/art/14-hummingbird-vector-graphics.html</url>
+    <price>9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>9</categoryId>
+    <vendor>Graphic Corner</vendor>
+    <categoryId>9</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Hummingbird - Vector graphics</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;You have a custom printing creative project? The vector graphic Mountain fox illustration can be used for printing purpose on any support, without size limitation. &lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/17-large_default/hummingbird-vector-graphics.jpg</picture>
+   </offer>
+   <offer id="912" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/art/12-mountain-fox-vector-graphics.html</url>
+    <price>9</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>9</categoryId>
+    <vendor>Graphic Corner</vendor>
+    <categoryId>9</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Mountain fox - Vector graphics</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;You have a custom printing creative project? The vector graphic Mountain fox illustration can be used for printing purpose on any support, without size limitation. &lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/15-large_default/mountain-fox-vector-graphics.jpg</picture>
+   </offer>
+   <offer id="915" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home-accessories/15-pack-mug-framed-poster.html</url>
+    <price>35</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>9</categoryId>
+    <categoryId>9</categoryId>
+    <stock_quantity>100</stock_quantity>
+    <name>Pack Mug + Framed poster</name>
+    <description>&lt;![CDATA[]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/23-large_default/pack-mug-framed-poster.jpg</picture>
+   </offer>
+   <offer id="94" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/home/4-the-adventure-begins-framed-poster.html</url>
+    <price>29</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>9</categoryId>
+    <vendor>Graphic Corner</vendor>
+    <categoryId>9</categoryId>
+    <stock_quantity>900</stock_quantity>
+    <name>The adventure begins Framed poster</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;The best is yet to come! Give your walls a voice with a framed poster. This aesthethic, optimistic poster will look great in your desk or in an open-space office. Painted wooden frame with passe-partout for more depth.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/4-large_default/the-adventure-begins-framed-poster.jpg</picture>
+   </offer>
+   <offer id="93" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/art/3-the-best-is-yet-to-come-framed-poster.html</url>
+    <price>29</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>9</categoryId>
+    <vendor>Graphic Corner</vendor>
+    <categoryId>9</categoryId>
+    <stock_quantity>900</stock_quantity>
+    <name>The best is yet to come&amp;apos; Framed poster</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;The best is yet to come! Give your walls a voice with a framed poster. This aesthethic, optimistic poster will look great in your desk or in an open-space office. Painted wooden frame with passe-partout for more depth.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/3-large_default/the-best-is-yet-to-come-framed-poster.jpg</picture>
+   </offer>
+   <offer id="95" available="true">
+    <url>http://192.168.9.41/prestashop/theme_mprozetka/art/5-today-is-a-good-day-framed-poster.html</url>
+    <price>29</price>
+    <currencyId>UAH</currencyId>
+    <categoryId>9</categoryId>
+    <vendor>Graphic Corner</vendor>
+    <categoryId>9</categoryId>
+    <stock_quantity>300</stock_quantity>
+    <name>Today is a good day Framed poster</name>
+    <description>&lt;![CDATA[&lt;p&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial;font-style:normal;&quot;&gt;The best is yet to come! Give your walls a voice with a framed poster. This aesthethic, optimistic poster will look great in your desk or in an open-space office. Painted wooden frame with passe-partout for more depth.&lt;/span&gt;&lt;/p&gt;]]</description>
+    <picture>http://192.168.9.41/prestashop/theme_mprozetka/5-large_default/today-is-a-good-day-framed-poster.jpg</picture>
+   </offer>
+  </offers>
+ </shop>
+</yml_catalog>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>mprozetka</name>
+	<displayName><![CDATA[MP Rozetka]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[The module provides all necessary information in order to connect with Rozetka.com.ua marketplace ]]></description>
+	<author><![CDATA[ASG Group (Alexander Grosul)]]></author>
+	<tab><![CDATA[market_place]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>

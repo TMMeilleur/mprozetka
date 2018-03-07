@@ -42,6 +42,16 @@ class YMLGenerator
         $this->writer->setIndent(true);
     }
 
+    /**
+     * Run xml file generation
+     *
+     * @param array $shopInfo - main information about a shop
+     * @param array $currencies - shop currencies information
+     * @param array $categories - shop categories
+     * @param array $products - shop products
+     *
+     * @return bool
+     */
     public function run(array $shopInfo, array $currencies, array $categories, array $products)
     {
         $this->addHeading();
@@ -59,6 +69,9 @@ class YMLGenerator
         return true;
     }
 
+    /**
+     * Add heading of xml file
+     */
     protected function addHeading()
     {
         $this->writer->startDocument('1.0', $this->settings->getEncoding());
@@ -69,6 +82,9 @@ class YMLGenerator
         $this->writer->startElement('shop');
     }
 
+    /**
+     * Add closing tags to the end of a xml file
+     */
     protected function addFooter()
     {
         $this->writer->fullEndElement();
@@ -76,6 +92,11 @@ class YMLGenerator
         $this->writer->endDocument();
     }
 
+    /**
+     * Add xml shop info elements
+     *
+     * @param $info
+     */
     protected function addShopInfo($info)
     {
         foreach ($info as $name => $value) {
@@ -85,6 +106,11 @@ class YMLGenerator
         }
     }
 
+    /**
+     * Add xml shop currencies elements
+     *
+     * @param $currencies
+     */
     protected function addShopCurrencies($currencies)
     {
 
@@ -98,6 +124,11 @@ class YMLGenerator
         $this->writer->endElement();
     }
 
+    /**
+     * Add xml shop categories elements
+     *
+     * @param $categories
+     */
     protected function addShopCategories($categories)
     {
         $this->writer->startElement('categories');
@@ -113,6 +144,11 @@ class YMLGenerator
         $this->writer->endElement();
     }
 
+    /**
+     * Add xml shop products elements
+     *
+     * @param $products
+     */
     protected function addShopProducts($products)
     {
         $this->writer->startElement('offers');
@@ -155,6 +191,13 @@ class YMLGenerator
         $this->writer->endElement();
     }
 
+    /**
+     * Filter forbidden elements from a string
+     *
+     * @param $s - string to filtering
+     *
+     * @return mixed|string
+     */
     private function filterElem($s) {
         $a['&nbsp;'] = ' ';
         $a['&ndash;'] = ' ';

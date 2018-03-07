@@ -89,23 +89,29 @@ class Mprozetka extends Module
         return parent::uninstall();
     }
 
+    /**
+     * Get main module form
+     *
+     * @return string
+     */
     public function getContent()
     {
-        if (((bool)Tools::isSubmit('submitMprozetkaModule')) == true) {
-            $this->postProcess();
-        }
-
+        // check if exists file with xml data and define a link to it if true
         if (file_exists($this->getLocalPath().$this->xmlPath)) {
             $this->offerListUrl = $this->getPathUri().$this->xmlPath;
         }
-
+        // update settings after form submit
+        if (((bool)Tools::isSubmit('submitMprozetkaModule')) == true) {
+            $this->postProcess();
+        }
+        // define already selected categories to use everywhere within a code
         $this->selectedCategories = array_map(function ($item) {
             return $item['id_category'];
         }, $this->repository->getSelectedCategories());
-
+        // define already selected excluded products to use everywhere within a code
         $this->excludedProducts = $this->repository->getExcludedProducts();
-
-        if (((bool)Tools::isSubmit('submitMprozetkaModuleRegenerate')) == true) {
+        // run xml file regeneration after regenerate button pressing
+        if (((bool)Tools::isSubmit('submitMprozetkaModuleRegenerate')) == true && Configuration::get('MPROZETKA_LIVE_MODE')) {
             $this->ymlGenerator->run(
                 $this->getShopInfo(),
                 $this->getShopCurrencies(),
@@ -113,13 +119,16 @@ class Mprozetka extends Module
                 $this->getShopProducts()
             );
         }
-
+        // display main module form
         $output = $this->renderForm();
 
 
         return $output;
     }
 
+    /**
+     * Generate main form class
+     */
     protected function renderForm()
     {
         $helper = new HelperForm();
@@ -144,7 +153,9 @@ class Mprozetka extends Module
 
         return $helper->generateForm(array($this->getConfigForm()));
     }
-
+    /**
+     * Build main form markup
+     */
     protected function getConfigForm()
     {
         return array(
@@ -213,6 +224,9 @@ class Mprozetka extends Module
         );
     }
 
+    /**
+     * Fill main form's default values
+     */
     protected function getConfigFormValues()
     {
         return array(
@@ -221,17 +235,32 @@ class Mprozetka extends Module
         );
     }
 
+    /**
+     * Save form values after submit
+     */
     protected function postProcess()
     {
-        Configuration::updateValue('MPROZETKA_LIVE_MODE', Tools::getValue('MPROZETKA_LIVE_MODE'));
+        // set module status
+        Configuration::updateValue('MPROZETKA_LIVE_MODE', (bool)Tools::getValue('MPROZETKA_LIVE_MODE'));
+
+        if (!Configuration::get('MPROZETKA_LIVE_MODE') && $this->offerListUrl) {
+            unlink($this->getLocalPath().$this->xmlPath);
+        }
+        // update selected categories
         if ($errors = $this->repository->setSelectedCategories(Tools::getValue('selected_categories'))) {
             $this->displayError($this->l($errors));
         }
+        // update excluded products
         if ($errors = $this->repository->setExcludedProducts(explode('-', Tools::getValue('inputproducts')))) {
             $this->displayError($this->l($errors));
         }
     }
 
+    /**
+     * Get necessary information about a shop
+     *
+     * @return array
+     */
     private function getShopInfo()
     {
         return array(
@@ -241,6 +270,11 @@ class Mprozetka extends Module
         );
     }
 
+    /**
+     * Get necessary information about shop currencies
+     *
+     * @return array
+     */
     private function getShopCurrencies()
     {
         $currencies = array_map(function ($item) {
@@ -250,6 +284,11 @@ class Mprozetka extends Module
         return $currencies;
     }
 
+    /**
+     * Get shop categories available for sharing
+     *
+     * @return array
+     */
     private function getShopCategories()
     {
         $result = array();
@@ -268,6 +307,11 @@ class Mprozetka extends Module
         return $result;
     }
 
+    /**
+     * Get shop products available for sharing
+     *
+     * @return array
+     */
     private function getShopProducts()
     {
         $selectedProducts = array();
@@ -336,11 +380,13 @@ class Mprozetka extends Module
         return $selectedProducts;
     }
 
+    /**
+     * Include necessary media files
+     */
     public function hookBackOfficeHeader()
     {
         if (Tools::getValue('module_name') == $this->name) {
             $this->context->controller->addJS($this->_path.'views/js/back.js');
-            $this->context->controller->addCSS($this->_path.'views/css/back.css');
         }
     }
 }

@@ -38,6 +38,12 @@ class MpRozetkaRepository
         $this->db_prefix = $db->getPrefix();
     }
 
+    /**
+     * Get selected categories
+     *
+     * @return array|false|mysqli_result|null|PDOStatement|resource
+     * @throws PrestaShopDatabaseException
+     */
     public function getSelectedCategories()
     {
         $sql = 'SELECT * FROM '.$this->db_prefix.'mprozetka_categories WHERE `id_shop` = '.(int)$this->shop->id;
@@ -45,8 +51,17 @@ class MpRozetkaRepository
         return $this->db->executeS($sql);
     }
 
+    /**
+     *  Set new selected categories
+     *
+     * @param $categories - array of categories ids to set as selected
+     *
+     * @return bool|string
+     * @throws PrestaShopDatabaseException
+     */
     public function setSelectedCategories($categories)
     {
+        // remove all selected categories before new ones addition
         if (!$this->clearCategories()) {
             return 'Cannot clear old selected categories';
         }
@@ -65,18 +80,39 @@ class MpRozetkaRepository
         return false;
     }
 
+    /**
+     * Remove all selected categories
+     *
+     * @return bool
+     */
     public function clearCategories()
     {
         return $this->db->delete('mprozetka_categories', 'id_shop = '.(int)$this->shop->id);
     }
 
+    /**
+     * Check if a category already exists among selected categories
+     *
+     * @param $id_category
+     *
+     * @return false|null|string
+     */
     public function checkCategorySelected($id_category)
     {
         return $this->db->getValue('SELECT id_category FROM '.$this->db_prefix.'mprozetka_categories WHERE id_shop = '.(int)$this->shop->id.' AND id_category = '.(int)$id_category);
     }
 
+    /**
+     * Update excluded products in the table
+     *
+     * @param $products - ids of products which must be excluded
+     *
+     * @return bool|string
+     * @throws PrestaShopDatabaseException
+     */
     public function setExcludedProducts($products)
     {
+        // remove all excluded products before new ones addition
         if (!$this->clearExcludedProducts()) {
             return 'Cannot clear old selected categories';
         }
@@ -100,11 +136,22 @@ class MpRozetkaRepository
         return false;
     }
 
+    /**
+     * Remove all excluded products
+     *
+     * @return bool
+     */
     public function clearExcludedProducts()
     {
         return $this->db->delete('mprozetka_excluded_products', 'id_shop = '.(int)$this->shop->id);
     }
 
+    /**
+     * Get excluded products with some necessary information to display in admin panel
+     *
+     * @return array|false|mysqli_result|null|PDOStatement|resource
+     * @throws PrestaShopDatabaseException
+     */
     public function getExcludedProducts()
     {
         return Db::getInstance()->executeS('
